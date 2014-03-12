@@ -1,0 +1,15 @@
+import pygame
+from pygame.locals import *
+FPS = 120
+
+WIDTH = 800+200
+HEIGHT = 600
+RED = (255,0,0)
+WHITE = (255,255,255)
+BLACK = (0,0,0)
+GREEN = (20,255,20)
+BLUE = (0,0,255)
+YELLOW = (128,128,0)
+
+TIMEDEVENT = USEREVENT+1
+ADD_ENEMY = USEREVENT+2
